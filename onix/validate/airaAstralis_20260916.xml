@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  SAMPLE VALIDATION FEED — for Google Play Books one-time ONIX format validation.
+  Target placement on feed server: onix/validate/<file>
+  Collection code (production dirs): E06UWW0
+
+  PLACEHOLDER ISBNs: the catalog has no ISBNs (owner decision: leave blank for now).
+  The ISBNs below are structurally-valid placeholders in the 9789999900xxx test range,
+  used ONLY to pass Google's format validation. NEVER send them in a production feed.
+  Descriptions are provisional (built from real metadata fields) pending production text.
+-->
+<ONIXMessage xmlns="http://ns.editeur.org/onix/3.0/reference" release="3.0">
+  <Header>
+    <Sender>
+      <SenderName>Aira Astralis</SenderName>
+      <EmailAddress>simplysiti.02@gmail.com</EmailAddress>
+    </Sender>
+    <Addressee>
+      <AddresseeName>Google</AddresseeName>
+    </Addressee>
+    <SentDateTime>20260916T0141</SentDateTime>
+    <DefaultCurrencyCode>USD</DefaultCurrencyCode>
+  </Header>
+  <Product>
+    <RecordReference>9789999900010</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9789999900010</IDValue>
+    </ProductIdentifier>
+    <DescriptiveDetail>
+      <ProductComposition>00</ProductComposition>
+      <ProductForm>EA</ProductForm>
+      <ProductFormDetail>E101</ProductFormDetail>
+      <EpubTechnicalProtection>00</EpubTechnicalProtection>
+      <TitleDetail>
+        <TitleType>01</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText>Antimatter</TitleText>
+          <Subtitle>The Mirror of Matter</Subtitle>
+        </TitleElement>
+      </TitleDetail>
+      <Contributor>
+        <ContributorRole>A01</ContributorRole>
+        <PersonName>Aira Astralis</PersonName>
+        <KeyNames>Astralis</KeyNames>
+      </Contributor>
+      <Language>
+        <LanguageRole>01</LanguageRole>
+        <LanguageCode>eng</LanguageCode>
+      </Language>
+      <!-- Subject heading text only: BISAC/thema codes to be confirmed before production -->
+      <Subject>
+        <SubjectHeadingText>Science / Astronomy / Educational</SubjectHeadingText>
+      </Subject>
+    </DescriptiveDetail>
+    <CollateralDetail>
+      <TextContent>
+        <TextType>03</TextType>
+        <ContentAudience>00</ContentAudience>
+        <Text>Antimatter: The Mirror of Matter. A nonfiction science book by Aira Astralis (Ages 8+, general). [Provisional description — full text pending from production manuscript.]</Text>
+      </TextContent>
+    </CollateralDetail>
+    <PublishingDetail>
+      <Imprint>
+        <ImprintName>Aira Astralis</ImprintName>
+      </Imprint>
+      <Publisher>
+        <PublishingRole>01</PublishingRole>
+        <PublisherName>Aira Astralis</PublisherName>
+      </Publisher>
+      <PublishingDate>
+        <PublishingDateRole>01</PublishingDateRole>
+        <Date>20260916</Date>
+      </PublishingDate>
+      <PublishingStatus>04</PublishingStatus>
+    </PublishingDetail>
+    <SalesRights>
+      <SalesRightsType>02</SalesRightsType>
+      <Territory>WORLD</Territory>
+    </SalesRights>
+    <ProductSupply>
+      <SupplyDetail>
+        <Supplier>
+          <SupplierRole>09</SupplierRole>
+          <SupplierName>Aira Astralis</SupplierName>
+        </Supplier>
+        <ProductAvailability>20</ProductAvailability>
+        <Price>
+          <PriceType>02</PriceType>
+          <PriceAmount>4.99</PriceAmount>
+          <CurrencyCode>USD</CurrencyCode>
+          <Territory>WORLD</Territory>
+        </Price>
+      </SupplyDetail>
+    </ProductSupply>
+  </Product>
+  <Product>
+    <RecordReference>9789999900027</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9789999900027</IDValue>
+    </ProductIdentifier>
+    <DescriptiveDetail>
+      <ProductComposition>00</ProductComposition>
+      <ProductForm>EA</ProductForm>
+      <ProductFormDetail>E101</ProductFormDetail>
+      <EpubTechnicalProtection>00</EpubTechnicalProtection>
+      <TitleDetail>
+        <TitleType>01</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText>Atoms and Quantum Physics</TitleText>
+          <Subtitle>The Subatomic World</Subtitle>
+        </TitleElement>
+      </TitleDetail>
+      <Contributor>
+        <ContributorRole>A01</ContributorRole>
+        <PersonName>Aira Astralis</PersonName>
+        <KeyNames>Astralis</KeyNames>
+      </Contributor>
+      <Language>
+        <LanguageRole>01</LanguageRole>
+        <LanguageCode>eng</LanguageCode>
+      </Language>
+      <!-- Subject heading text only: BISAC/thema codes to be confirmed before production -->
+      <Subject>
+        <SubjectHeadingText>Science / Astronomy / Educational</SubjectHeadingText>
+      </Subject>
+    </DescriptiveDetail>
+    <CollateralDetail>
+      <TextContent>
+        <TextType>03</TextType>
+        <ContentAudience>00</ContentAudience>
+        <Text>Atoms and Quantum Physics: The Subatomic World. A nonfiction science book by Aira Astralis (Ages 8+, general). [Provisional description — full text pending from production manuscript.]</Text>
+      </TextContent>
+    </CollateralDetail>
+    <PublishingDetail>
+      <Imprint>
+        <ImprintName>Aira Astralis</ImprintName>
+      </Imprint>
+      <Publisher>
+        <PublishingRole>01</PublishingRole>
+        <PublisherName>Aira Astralis</PublisherName>
+      </Publisher>
+      <PublishingDate>
+        <PublishingDateRole>01</PublishingDateRole>
+        <Date>20260916</Date>
+      </PublishingDate>
+      <PublishingStatus>04</PublishingStatus>
+    </PublishingDetail>
+    <SalesRights>
+      <SalesRightsType>02</SalesRightsType>
+      <Territory>WORLD</Territory>
+    </SalesRights>
+    <ProductSupply>
+      <SupplyDetail>
+        <Supplier>
+          <SupplierRole>09</SupplierRole>
+          <SupplierName>Aira Astralis</SupplierName>
+        </Supplier>
+        <ProductAvailability>20</ProductAvailability>
+        <Price>
+          <PriceType>02</PriceType>
+          <PriceAmount>4.99</PriceAmount>
+          <CurrencyCode>USD</CurrencyCode>
+          <Territory>WORLD</Territory>
+        </Price>
+      </SupplyDetail>
+    </ProductSupply>
+  </Product>
+  <Product>
+    <RecordReference>9789999900034</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9789999900034</IDValue>
+    </ProductIdentifier>
+    <DescriptiveDetail>
+      <ProductComposition>00</ProductComposition>
+      <ProductForm>EA</ProductForm>
+      <ProductFormDetail>E101</ProductFormDetail>
+      <EpubTechnicalProtection>00</EpubTechnicalProtection>
+      <TitleDetail>
+        <TitleType>01</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText>Bell's Theorem</TitleText>
+          <Subtitle>The Most Profound Discovery in Physics</Subtitle>
+        </TitleElement>
+      </TitleDetail>
+      <Contributor>
+        <ContributorRole>A01</ContributorRole>
+        <PersonName>Aira Astralis</PersonName>
+        <KeyNames>Astralis</KeyNames>
+      </Contributor>
+      <Language>
+        <LanguageRole>01</LanguageRole>
+        <LanguageCode>eng</LanguageCode>
+      </Language>
+      <!-- Subject heading text only: BISAC/thema codes to be confirmed before production -->
+      <Subject>
+        <SubjectHeadingText>Science / Astronomy / Educational</SubjectHeadingText>
+      </Subject>
+    </DescriptiveDetail>
+    <CollateralDetail>
+      <TextContent>
+        <TextType>03</TextType>
+        <ContentAudience>00</ContentAudience>
+        <Text>Bell's Theorem: The Most Profound Discovery in Physics. A nonfiction science book by Aira Astralis (Ages 8+, general). [Provisional description — full text pending from production manuscript.]</Text>
+      </TextContent>
+    </CollateralDetail>
+    <PublishingDetail>
+      <Imprint>
+        <ImprintName>Aira Astralis</ImprintName>
+      </Imprint>
+      <Publisher>
+        <PublishingRole>01</PublishingRole>
+        <PublisherName>Aira Astralis</PublisherName>
+      </Publisher>
+      <PublishingDate>
+        <PublishingDateRole>01</PublishingDateRole>
+        <Date>20260916</Date>
+      </PublishingDate>
+      <PublishingStatus>04</PublishingStatus>
+    </PublishingDetail>
+    <SalesRights>
+      <SalesRightsType>02</SalesRightsType>
+      <Territory>WORLD</Territory>
+    </SalesRights>
+    <ProductSupply>
+      <SupplyDetail>
+        <Supplier>
+          <SupplierRole>09</SupplierRole>
+          <SupplierName>Aira Astralis</SupplierName>
+        </Supplier>
+        <ProductAvailability>20</ProductAvailability>
+        <Price>
+          <PriceType>02</PriceType>
+          <PriceAmount>4.99</PriceAmount>
+          <CurrencyCode>USD</CurrencyCode>
+          <Territory>WORLD</Territory>
+        </Price>
+      </SupplyDetail>
+    </ProductSupply>
+  </Product>
+  <Product>
+    <RecordReference>9789999900041</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9789999900041</IDValue>
+    </ProductIdentifier>
+    <DescriptiveDetail>
+      <ProductComposition>00</ProductComposition>
+      <ProductForm>EA</ProductForm>
+      <ProductFormDetail>E101</ProductFormDetail>
+      <EpubTechnicalProtection>00</EpubTechnicalProtection>
+      <TitleDetail>
+        <TitleType>01</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText>Bose-Einstein Condensates</TitleText>
+          <Subtitle>The Fifth State of Matter</Subtitle>
+        </TitleElement>
+      </TitleDetail>
+      <Contributor>
+        <ContributorRole>A01</ContributorRole>
+        <PersonName>Aira Astralis</PersonName>
+        <KeyNames>Astralis</KeyNames>
+      </Contributor>
+      <Language>
+        <LanguageRole>01</LanguageRole>
+        <LanguageCode>eng</LanguageCode>
+      </Language>
+      <!-- Subject heading text only: BISAC/thema codes to be confirmed before production -->
+      <Subject>
+        <SubjectHeadingText>Science / Astronomy / Educational</SubjectHeadingText>
+      </Subject>
+    </DescriptiveDetail>
+    <CollateralDetail>
+      <TextContent>
+        <TextType>03</TextType>
+        <ContentAudience>00</ContentAudience>
+        <Text>Bose-Einstein Condensates: The Fifth State of Matter. A nonfiction science book by Aira Astralis (Ages 8+, general). [Provisional description — full text pending from production manuscript.]</Text>
+      </TextContent>
+    </CollateralDetail>
+    <PublishingDetail>
+      <Imprint>
+        <ImprintName>Aira Astralis</ImprintName>
+      </Imprint>
+      <Publisher>
+        <PublishingRole>01</PublishingRole>
+        <PublisherName>Aira Astralis</PublisherName>
+      </Publisher>
+      <PublishingDate>
+        <PublishingDateRole>01</PublishingDateRole>
+        <Date>20260916</Date>
+      </PublishingDate>
+      <PublishingStatus>04</PublishingStatus>
+    </PublishingDetail>
+    <SalesRights>
+      <SalesRightsType>02</SalesRightsType>
+      <Territory>WORLD</Territory>
+    </SalesRights>
+    <ProductSupply>
+      <SupplyDetail>
+        <Supplier>
+          <SupplierRole>09</SupplierRole>
+          <SupplierName>Aira Astralis</SupplierName>
+        </Supplier>
+        <ProductAvailability>20</ProductAvailability>
+        <Price>
+          <PriceType>02</PriceType>
+          <PriceAmount>4.99</PriceAmount>
+          <CurrencyCode>USD</CurrencyCode>
+          <Territory>WORLD</Territory>
+        </Price>
+      </SupplyDetail>
+    </ProductSupply>
+  </Product>
+  <Product>
+    <RecordReference>9789999900058</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9789999900058</IDValue>
+    </ProductIdentifier>
+    <DescriptiveDetail>
+      <ProductComposition>00</ProductComposition>
+      <ProductForm>EA</ProductForm>
+      <ProductFormDetail>E101</ProductFormDetail>
+      <EpubTechnicalProtection>00</EpubTechnicalProtection>
+      <TitleDetail>
+        <TitleType>01</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText>Chaos Theory</TitleText>
+          <Subtitle>The Butterfly Effect and Deterministic Chaos</Subtitle>
+        </TitleElement>
+      </TitleDetail>
+      <Contributor>
+        <ContributorRole>A01</ContributorRole>
+        <PersonName>Aira Astralis</PersonName>
+        <KeyNames>Astralis</KeyNames>
+      </Contributor>
+      <Language>
+        <LanguageRole>01</LanguageRole>
+        <LanguageCode>eng</LanguageCode>
+      </Language>
+      <!-- Subject heading text only: BISAC/thema codes to be confirmed before production -->
+      <Subject>
+        <SubjectHeadingText>Science / Astronomy / Educational</SubjectHeadingText>
+      </Subject>
+    </DescriptiveDetail>
+    <CollateralDetail>
+      <TextContent>
+        <TextType>03</TextType>
+        <ContentAudience>00</ContentAudience>
+        <Text>Why can't we predict the weather past two weeks? Chaos theory is the science of deterministic unpredictability: simple nonlinear rules whose sensitivity to starting conditions makes long-range forecasting impossible in principle — while leaving stable statistics, strange fractal attractors, and honest horizons in its place. From Poincaré's three-body problem and Lorenz's butterfly effect to Feigenbaum's universal constants, the control of chaos, and ensemble forecasting, this is the complete story of the mathematics that taught the modern world the limits of prediction.</Text>
+      </TextContent>
+    </CollateralDetail>
+    <PublishingDetail>
+      <Imprint>
+        <ImprintName>Aira Astralis</ImprintName>
+      </Imprint>
+      <Publisher>
+        <PublishingRole>01</PublishingRole>
+        <PublisherName>Aira Astralis</PublisherName>
+      </Publisher>
+      <PublishingDate>
+        <PublishingDateRole>01</PublishingDateRole>
+        <Date>20260916</Date>
+      </PublishingDate>
+      <PublishingStatus>04</PublishingStatus>
+    </PublishingDetail>
+    <SalesRights>
+      <SalesRightsType>02</SalesRightsType>
+      <Territory>WORLD</Territory>
+    </SalesRights>
+    <ProductSupply>
+      <SupplyDetail>
+        <Supplier>
+          <SupplierRole>09</SupplierRole>
+          <SupplierName>Aira Astralis</SupplierName>
+        </Supplier>
+        <ProductAvailability>20</ProductAvailability>
+        <Price>
+          <PriceType>02</PriceType>
+          <PriceAmount>4.99</PriceAmount>
+          <CurrencyCode>USD</CurrencyCode>
+          <Territory>WORLD</Territory>
+        </Price>
+      </SupplyDetail>
+    </ProductSupply>
+  </Product>
+  <Product>
+    <RecordReference>9789999900065</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9789999900065</IDValue>
+    </ProductIdentifier>
+    <DescriptiveDetail>
+      <ProductComposition>00</ProductComposition>
+      <ProductForm>EA</ProductForm>
+      <ProductFormDetail>E101</ProductFormDetail>
+      <EpubTechnicalProtection>00</EpubTechnicalProtection>
+      <TitleDetail>
+        <TitleType>01</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText>Conservation Laws</TitleText>
+          <Subtitle>The Rules Physics Follows</Subtitle>
+        </TitleElement>
+      </TitleDetail>
+      <Contributor>
+        <ContributorRole>A01</ContributorRole>
+        <PersonName>Aira Astralis</PersonName>
+        <KeyNames>Astralis</KeyNames>
+      </Contributor>
+      <Language>
+        <LanguageRole>01</LanguageRole>
+        <LanguageCode>eng</LanguageCode>
+      </Language>
+      <!-- Subject heading text only: BISAC/thema codes to be confirmed before production -->
+      <Subject>
+        <SubjectHeadingText>Science / Astronomy / Educational</SubjectHeadingText>
+      </Subject>
+    </DescriptiveDetail>
+    <CollateralDetail>
+      <TextContent>
+        <TextType>03</TextType>
+        <ContentAudience>00</ContentAudience>
+        <Text>Conservation Laws: The Rules Physics Follows. A nonfiction science book by Aira Astralis (Ages 8+, general). [Provisional description — full text pending from production manuscript.]</Text>
+      </TextContent>
+    </CollateralDetail>
+    <PublishingDetail>
+      <Imprint>
+        <ImprintName>Aira Astralis</ImprintName>
+      </Imprint>
+      <Publisher>
+        <PublishingRole>01</PublishingRole>
+        <PublisherName>Aira Astralis</PublisherName>
+      </Publisher>
+      <PublishingDate>
+        <PublishingDateRole>01</PublishingDateRole>
+        <Date>20260916</Date>
+      </PublishingDate>
+      <PublishingStatus>04</PublishingStatus>
+    </PublishingDetail>
+    <SalesRights>
+      <SalesRightsType>02</SalesRightsType>
+      <Territory>WORLD</Territory>
+    </SalesRights>
+    <ProductSupply>
+      <SupplyDetail>
+        <Supplier>
+          <SupplierRole>09</SupplierRole>
+          <SupplierName>Aira Astralis</SupplierName>
+        </Supplier>
+        <ProductAvailability>20</ProductAvailability>
+        <Price>
+          <PriceType>02</PriceType>
+          <PriceAmount>4.99</PriceAmount>
+          <CurrencyCode>USD</CurrencyCode>
+          <Territory>WORLD</Territory>
+        </Price>
+      </SupplyDetail>
+    </ProductSupply>
+  </Product>
+  <Product>
+    <RecordReference>9789999900072</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9789999900072</IDValue>
+    </ProductIdentifier>
+    <DescriptiveDetail>
+      <ProductComposition>00</ProductComposition>
+      <ProductForm>EA</ProductForm>
+      <ProductFormDetail>E101</ProductFormDetail>
+      <EpubTechnicalProtection>00</EpubTechnicalProtection>
+      <TitleDetail>
+        <TitleType>01</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText>Energy</TitleText>
+          <Subtitle>From Kinetic to Nuclear to Dark Energy</Subtitle>
+        </TitleElement>
+      </TitleDetail>
+      <Contributor>
+        <ContributorRole>A01</ContributorRole>
+        <PersonName>Aira Astralis</PersonName>
+        <KeyNames>Astralis</KeyNames>
+      </Contributor>
+      <Language>
+        <LanguageRole>01</LanguageRole>
+        <LanguageCode>eng</LanguageCode>
+      </Language>
+      <!-- Subject heading text only: BISAC/thema codes to be confirmed before production -->
+      <Subject>
+        <SubjectHeadingText>Science / Astronomy / Educational</SubjectHeadingText>
+      </Subject>
+    </DescriptiveDetail>
+    <CollateralDetail>
+      <TextContent>
+        <TextType>03</TextType>
+        <ContentAudience>00</ContentAudience>
+        <Text>Energy: From Kinetic to Nuclear to Dark Energy. A nonfiction science book by Aira Astralis (Ages 8+, general). [Provisional description — full text pending from production manuscript.]</Text>
+      </TextContent>
+    </CollateralDetail>
+    <PublishingDetail>
+      <Imprint>
+        <ImprintName>Aira Astralis</ImprintName>
+      </Imprint>
+      <Publisher>
+        <PublishingRole>01</PublishingRole>
+        <PublisherName>Aira Astralis</PublisherName>
+      </Publisher>
+      <PublishingDate>
+        <PublishingDateRole>01</PublishingDateRole>
+        <Date>20260916</Date>
+      </PublishingDate>
+      <PublishingStatus>04</PublishingStatus>
+    </PublishingDetail>
+    <SalesRights>
+      <SalesRightsType>02</SalesRightsType>
+      <Territory>WORLD</Territory>
+    </SalesRights>
+    <ProductSupply>
+      <SupplyDetail>
+        <Supplier>
+          <SupplierRole>09</SupplierRole>
+          <SupplierName>Aira Astralis</SupplierName>
+        </Supplier>
+        <ProductAvailability>20</ProductAvailability>
+        <Price>
+          <PriceType>02</PriceType>
+          <PriceAmount>4.99</PriceAmount>
+          <CurrencyCode>USD</CurrencyCode>
+          <Territory>WORLD</Territory>
+        </Price>
+      </SupplyDetail>
+    </ProductSupply>
+  </Product>
+  <Product>
+    <RecordReference>9789999900089</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9789999900089</IDValue>
+    </ProductIdentifier>
+    <DescriptiveDetail>
+      <ProductComposition>00</ProductComposition>
+      <ProductForm>EA</ProductForm>
+      <ProductFormDetail>E101</ProductFormDetail>
+      <EpubTechnicalProtection>00</EpubTechnicalProtection>
+      <TitleDetail>
+        <TitleType>01</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText>Entropy</TitleText>
+          <Subtitle>The Arrow of Time and the Second Law of Thermodynamics</Subtitle>
+        </TitleElement>
+      </TitleDetail>
+      <Contributor>
+        <ContributorRole>A01</ContributorRole>
+        <PersonName>Aira Astralis</PersonName>
+        <KeyNames>Astralis</KeyNames>
+      </Contributor>
+      <Language>
+        <LanguageRole>01</LanguageRole>
+        <LanguageCode>eng</LanguageCode>
+      </Language>
+      <!-- Subject heading text only: BISAC/thema codes to be confirmed before production -->
+      <Subject>
+        <SubjectHeadingText>Science / Astronomy / Educational</SubjectHeadingText>
+      </Subject>
+    </DescriptiveDetail>
+    <CollateralDetail>
+      <TextContent>
+        <TextType>03</TextType>
+        <ContentAudience>00</ContentAudience>
+        <Text>Entropy: The Arrow of Time and the Second Law of Thermodynamics. A nonfiction science book by Aira Astralis (Ages 8+, general). [Provisional description — full text pending from production manuscript.]</Text>
+      </TextContent>
+    </CollateralDetail>
+    <PublishingDetail>
+      <Imprint>
+        <ImprintName>Aira Astralis</ImprintName>
+      </Imprint>
+      <Publisher>
+        <PublishingRole>01</PublishingRole>
+        <PublisherName>Aira Astralis</PublisherName>
+      </Publisher>
+      <PublishingDate>
+        <PublishingDateRole>01</PublishingDateRole>
+        <Date>20260916</Date>
+      </PublishingDate>
+      <PublishingStatus>04</PublishingStatus>
+    </PublishingDetail>
+    <SalesRights>
+      <SalesRightsType>02</SalesRightsType>
+      <Territory>WORLD</Territory>
+    </SalesRights>
+    <ProductSupply>
+      <SupplyDetail>
+        <Supplier>
+          <SupplierRole>09</SupplierRole>
+          <SupplierName>Aira Astralis</SupplierName>
+        </Supplier>
+        <ProductAvailability>20</ProductAvailability>
+        <Price>
+          <PriceType>02</PriceType>
+          <PriceAmount>4.99</PriceAmount>
+          <CurrencyCode>USD</CurrencyCode>
+          <Territory>WORLD</Territory>
+        </Price>
+      </SupplyDetail>
+    </ProductSupply>
+  </Product>
+  <Product>
+    <RecordReference>9789999900096</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9789999900096</IDValue>
+    </ProductIdentifier>
+    <DescriptiveDetail>
+      <ProductComposition>00</ProductComposition>
+      <ProductForm>EA</ProductForm>
+      <ProductFormDetail>E101</ProductFormDetail>
+      <EpubTechnicalProtection>00</EpubTechnicalProtection>
+      <TitleDetail>
+        <TitleType>01</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText>Entropy of Information</TitleText>
+          <Subtitle>The Physics of Data</Subtitle>
+        </TitleElement>
+      </TitleDetail>
+      <Contributor>
+        <ContributorRole>A01</ContributorRole>
+        <PersonName>Aira Astralis</PersonName>
+        <KeyNames>Astralis</KeyNames>
+      </Contributor>
+      <Language>
+        <LanguageRole>01</LanguageRole>
+        <LanguageCode>eng</LanguageCode>
+      </Language>
+      <!-- Subject heading text only: BISAC/thema codes to be confirmed before production -->
+      <Subject>
+        <SubjectHeadingText>Science / Astronomy / Educational</SubjectHeadingText>
+      </Subject>
+    </DescriptiveDetail>
+    <CollateralDetail>
+      <TextContent>
+        <TextType>03</TextType>
+        <ContentAudience>00</ContentAudience>
+        <Text>Entropy of Information: The Physics of Data. A nonfiction science book by Aira Astralis (Ages 8+, general). [Provisional description — full text pending from production manuscript.]</Text>
+      </TextContent>
+    </CollateralDetail>
+    <PublishingDetail>
+      <Imprint>
+        <ImprintName>Aira Astralis</ImprintName>
+      </Imprint>
+      <Publisher>
+        <PublishingRole>01</PublishingRole>
+        <PublisherName>Aira Astralis</PublisherName>
+      </Publisher>
+      <PublishingDate>
+        <PublishingDateRole>01</PublishingDateRole>
+        <Date>20260916</Date>
+      </PublishingDate>
+      <PublishingStatus>04</PublishingStatus>
+    </PublishingDetail>
+    <SalesRights>
+      <SalesRightsType>02</SalesRightsType>
+      <Territory>WORLD</Territory>
+    </SalesRights>
+    <ProductSupply>
+      <SupplyDetail>
+        <Supplier>
+          <SupplierRole>09</SupplierRole>
+          <SupplierName>Aira Astralis</SupplierName>
+        </Supplier>
+        <ProductAvailability>20</ProductAvailability>
+        <Price>
+          <PriceType>02</PriceType>
+          <PriceAmount>4.99</PriceAmount>
+          <CurrencyCode>USD</CurrencyCode>
+          <Territory>WORLD</Territory>
+        </Price>
+      </SupplyDetail>
+    </ProductSupply>
+  </Product>
+  <Product>
+    <RecordReference>9789999900102</RecordReference>
+    <NotificationType>03</NotificationType>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9789999900102</IDValue>
+    </ProductIdentifier>
+    <DescriptiveDetail>
+      <ProductComposition>00</ProductComposition>
+      <ProductForm>EA</ProductForm>
+      <ProductFormDetail>E101</ProductFormDetail>
+      <EpubTechnicalProtection>00</EpubTechnicalProtection>
+      <TitleDetail>
+        <TitleType>01</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText>Fluid Dynamics</TitleText>
+          <Subtitle>How Fluids Flow, From Turbulence to Aerodynamics</Subtitle>
+        </TitleElement>
+      </TitleDetail>
+      <Contributor>
+        <ContributorRole>A01</ContributorRole>
+        <PersonName>Aira Astralis</PersonName>
+        <KeyNames>Astralis</KeyNames>
+      </Contributor>
+      <Language>
+        <LanguageRole>01</LanguageRole>
+        <LanguageCode>eng</LanguageCode>
+      </Language>
+      <!-- Subject heading text only: BISAC/thema codes to be confirmed before production -->
+      <Subject>
+        <SubjectHeadingText>Science / Astronomy / Educational</SubjectHeadingText>
+      </Subject>
+    </DescriptiveDetail>
+    <CollateralDetail>
+      <TextContent>
+        <TextType>03</TextType>
+        <ContentAudience>00</ContentAudience>
+        <Text>Fluid Dynamics: How Fluids Flow, From Turbulence to Aerodynamics. A nonfiction science book by Aira Astralis (Ages 8+, general). [Provisional description — full text pending from production manuscript.]</Text>
+      </TextContent>
+    </CollateralDetail>
+    <PublishingDetail>
+      <Imprint>
+        <ImprintName>Aira Astralis</ImprintName>
+      </Imprint>
+      <Publisher>
+        <PublishingRole>01</PublishingRole>
+        <PublisherName>Aira Astralis</PublisherName>
+      </Publisher>
+      <PublishingDate>
+        <PublishingDateRole>01</PublishingDateRole>
+        <Date>20260916</Date>
+      </PublishingDate>
+      <PublishingStatus>04</PublishingStatus>
+    </PublishingDetail>
+    <SalesRights>
+      <SalesRightsType>02</SalesRightsType>
+      <Territory>WORLD</Territory>
+    </SalesRights>
+    <ProductSupply>
+      <SupplyDetail>
+        <Supplier>
+          <SupplierRole>09</SupplierRole>
+          <SupplierName>Aira Astralis</SupplierName>
+        </Supplier>
+        <ProductAvailability>20</ProductAvailability>
+        <Price>
+          <PriceType>02</PriceType>
+          <PriceAmount>4.99</PriceAmount>
+          <CurrencyCode>USD</CurrencyCode>
+          <Territory>WORLD</Territory>
+        </Price>
+      </SupplyDetail>
+    </ProductSupply>
+  </Product>
+</ONIXMessage>
