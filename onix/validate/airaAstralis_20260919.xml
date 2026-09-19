@@ -18,7 +18,7 @@
     <Addressee>
       <AddresseeName>Google</AddresseeName>
     </Addressee>
-    <SentDateTime>20260916T0141</SentDateTime>
+    <SentDateTime>20260919T0000</SentDateTime>
     <DefaultCurrencyCode>USD</DefaultCurrencyCode>
   </Header>
   <Product>
@@ -50,8 +50,9 @@
         <LanguageRole>01</LanguageRole>
         <LanguageCode>eng</LanguageCode>
       </Language>
-      <!-- Subject heading text only: BISAC/thema codes to be confirmed before production -->
+      <!-- Free-text keywords (scheme 20); BISAC (10) / Thema (93) codes before production feeds -->
       <Subject>
+        <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
         <SubjectHeadingText>Science / Astronomy / Educational</SubjectHeadingText>
       </Subject>
     </DescriptiveDetail>
@@ -70,16 +71,18 @@
         <PublishingRole>01</PublishingRole>
         <PublisherName>Aira Astralis</PublisherName>
       </Publisher>
+      <PublishingStatus>04</PublishingStatus>
       <PublishingDate>
         <PublishingDateRole>01</PublishingDateRole>
-        <Date>20260916</Date>
+        <Date dateformat="00">20260919</Date>
       </PublishingDate>
-      <PublishingStatus>04</PublishingStatus>
+      <SalesRights>
+        <SalesRightsType>02</SalesRightsType>
+        <Territory>
+          <RegionsIncluded>WORLD</RegionsIncluded>
+        </Territory>
+      </SalesRights>
     </PublishingDetail>
-    <SalesRights>
-      <SalesRightsType>02</SalesRightsType>
-      <Territory>WORLD</Territory>
-    </SalesRights>
     <ProductSupply>
       <SupplyDetail>
         <Supplier>
@@ -91,7 +94,9 @@
           <PriceType>02</PriceType>
           <PriceAmount>4.99</PriceAmount>
           <CurrencyCode>USD</CurrencyCode>
-          <Territory>WORLD</Territory>
+          <Territory>
+            <RegionsIncluded>WORLD</RegionsIncluded>
+          </Territory>
         </Price>
       </SupplyDetail>
     </ProductSupply>
@@ -125,8 +130,9 @@
         <LanguageRole>01</LanguageRole>
         <LanguageCode>eng</LanguageCode>
       </Language>
-      <!-- Subject heading text only: BISAC/thema codes to be confirmed before production -->
+      <!-- Free-text keywords (scheme 20); BISAC (10) / Thema (93) codes before production feeds -->
       <Subject>
+        <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
         <SubjectHeadingText>Science / Astronomy / Educational</SubjectHeadingText>
       </Subject>
     </DescriptiveDetail>
@@ -145,16 +151,18 @@
         <PublishingRole>01</PublishingRole>
         <PublisherName>Aira Astralis</PublisherName>
       </Publisher>
+      <PublishingStatus>04</PublishingStatus>
       <PublishingDate>
         <PublishingDateRole>01</PublishingDateRole>
-        <Date>20260916</Date>
+        <Date dateformat="00">20260919</Date>
       </PublishingDate>
-      <PublishingStatus>04</PublishingStatus>
+      <SalesRights>
+        <SalesRightsType>02</SalesRightsType>
+        <Territory>
+          <RegionsIncluded>WORLD</RegionsIncluded>
+        </Territory>
+      </SalesRights>
     </PublishingDetail>
-    <SalesRights>
-      <SalesRightsType>02</SalesRightsType>
-      <Territory>WORLD</Territory>
-    </SalesRights>
     <ProductSupply>
       <SupplyDetail>
         <Supplier>
@@ -166,7 +174,9 @@
           <PriceType>02</PriceType>
           <PriceAmount>4.99</PriceAmount>
           <CurrencyCode>USD</CurrencyCode>
-          <Territory>WORLD</Territory>
+          <Territory>
+            <RegionsIncluded>WORLD</RegionsIncluded>
+          </Territory>
         </Price>
       </SupplyDetail>
     </ProductSupply>
@@ -200,8 +210,9 @@
         <LanguageRole>01</LanguageRole>
         <LanguageCode>eng</LanguageCode>
       </Language>
-      <!-- Subject heading text only: BISAC/thema codes to be confirmed before production -->
+      <!-- Free-text keywords (scheme 20); BISAC (10) / Thema (93) codes before production feeds -->
       <Subject>
+        <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
         <SubjectHeadingText>Science / Astronomy / Educational</SubjectHeadingText>
       </Subject>
     </DescriptiveDetail>
@@ -220,16 +231,18 @@
         <PublishingRole>01</PublishingRole>
         <PublisherName>Aira Astralis</PublisherName>
       </Publisher>
+      <PublishingStatus>04</PublishingStatus>
       <PublishingDate>
         <PublishingDateRole>01</PublishingDateRole>
-        <Date>20260916</Date>
+        <Date dateformat="00">20260919</Date>
       </PublishingDate>
-      <PublishingStatus>04</PublishingStatus>
+      <SalesRights>
+        <SalesRightsType>02</SalesRightsType>
+        <Territory>
+          <RegionsIncluded>WORLD</RegionsIncluded>
+        </Territory>
+      </SalesRights>
     </PublishingDetail>
-    <SalesRights>
-      <SalesRightsType>02</SalesRightsType>
-      <Territory>WORLD</Territory>
-    </SalesRights>
     <ProductSupply>
       <SupplyDetail>
         <Supplier>
@@ -241,7 +254,9 @@
           <PriceType>02</PriceType>
           <PriceAmount>4.99</PriceAmount>
           <CurrencyCode>USD</CurrencyCode>
-          <Territory>WORLD</Territory>
+          <Territory>
+            <RegionsIncluded>WORLD</RegionsIncluded>
+          </Territory>
         </Price>
       </SupplyDetail>
     </ProductSupply>
@@ -275,8 +290,9 @@
         <LanguageRole>01</LanguageRole>
         <LanguageCode>eng</LanguageCode>
       </Language>
-      <!-- Subject heading text only: BISAC/thema codes to be confirmed before production -->
+      <!-- Free-text keywords (scheme 20); BISAC (10) / Thema (93) codes before production feeds -->
       <Subject>
+        <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
         <SubjectHeadingText>Science / Astronomy / Educational</SubjectHeadingText>
       </Subject>
     </DescriptiveDetail>
@@ -295,16 +311,18 @@
         <PublishingRole>01</PublishingRole>
         <PublisherName>Aira Astralis</PublisherName>
       </Publisher>
+      <PublishingStatus>04</PublishingStatus>
       <PublishingDate>
         <PublishingDateRole>01</PublishingDateRole>
-        <Date>20260916</Date>
+        <Date dateformat="00">20260919</Date>
       </PublishingDate>
-      <PublishingStatus>04</PublishingStatus>
+      <SalesRights>
+        <SalesRightsType>02</SalesRightsType>
+        <Territory>
+          <RegionsIncluded>WORLD</RegionsIncluded>
+        </Territory>
+      </SalesRights>
     </PublishingDetail>
-    <SalesRights>
-      <SalesRightsType>02</SalesRightsType>
-      <Territory>WORLD</Territory>
-    </SalesRights>
     <ProductSupply>
       <SupplyDetail>
         <Supplier>
@@ -316,7 +334,9 @@
           <PriceType>02</PriceType>
           <PriceAmount>4.99</PriceAmount>
           <CurrencyCode>USD</CurrencyCode>
-          <Territory>WORLD</Territory>
+          <Territory>
+            <RegionsIncluded>WORLD</RegionsIncluded>
+          </Territory>
         </Price>
       </SupplyDetail>
     </ProductSupply>
@@ -350,8 +370,9 @@
         <LanguageRole>01</LanguageRole>
         <LanguageCode>eng</LanguageCode>
       </Language>
-      <!-- Subject heading text only: BISAC/thema codes to be confirmed before production -->
+      <!-- Free-text keywords (scheme 20); BISAC (10) / Thema (93) codes before production feeds -->
       <Subject>
+        <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
         <SubjectHeadingText>Science / Astronomy / Educational</SubjectHeadingText>
       </Subject>
     </DescriptiveDetail>
@@ -370,16 +391,18 @@
         <PublishingRole>01</PublishingRole>
         <PublisherName>Aira Astralis</PublisherName>
       </Publisher>
+      <PublishingStatus>04</PublishingStatus>
       <PublishingDate>
         <PublishingDateRole>01</PublishingDateRole>
-        <Date>20260916</Date>
+        <Date dateformat="00">20260919</Date>
       </PublishingDate>
-      <PublishingStatus>04</PublishingStatus>
+      <SalesRights>
+        <SalesRightsType>02</SalesRightsType>
+        <Territory>
+          <RegionsIncluded>WORLD</RegionsIncluded>
+        </Territory>
+      </SalesRights>
     </PublishingDetail>
-    <SalesRights>
-      <SalesRightsType>02</SalesRightsType>
-      <Territory>WORLD</Territory>
-    </SalesRights>
     <ProductSupply>
       <SupplyDetail>
         <Supplier>
@@ -391,7 +414,9 @@
           <PriceType>02</PriceType>
           <PriceAmount>4.99</PriceAmount>
           <CurrencyCode>USD</CurrencyCode>
-          <Territory>WORLD</Territory>
+          <Territory>
+            <RegionsIncluded>WORLD</RegionsIncluded>
+          </Territory>
         </Price>
       </SupplyDetail>
     </ProductSupply>
@@ -425,8 +450,9 @@
         <LanguageRole>01</LanguageRole>
         <LanguageCode>eng</LanguageCode>
       </Language>
-      <!-- Subject heading text only: BISAC/thema codes to be confirmed before production -->
+      <!-- Free-text keywords (scheme 20); BISAC (10) / Thema (93) codes before production feeds -->
       <Subject>
+        <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
         <SubjectHeadingText>Science / Astronomy / Educational</SubjectHeadingText>
       </Subject>
     </DescriptiveDetail>
@@ -445,16 +471,18 @@
         <PublishingRole>01</PublishingRole>
         <PublisherName>Aira Astralis</PublisherName>
       </Publisher>
+      <PublishingStatus>04</PublishingStatus>
       <PublishingDate>
         <PublishingDateRole>01</PublishingDateRole>
-        <Date>20260916</Date>
+        <Date dateformat="00">20260919</Date>
       </PublishingDate>
-      <PublishingStatus>04</PublishingStatus>
+      <SalesRights>
+        <SalesRightsType>02</SalesRightsType>
+        <Territory>
+          <RegionsIncluded>WORLD</RegionsIncluded>
+        </Territory>
+      </SalesRights>
     </PublishingDetail>
-    <SalesRights>
-      <SalesRightsType>02</SalesRightsType>
-      <Territory>WORLD</Territory>
-    </SalesRights>
     <ProductSupply>
       <SupplyDetail>
         <Supplier>
@@ -466,7 +494,9 @@
           <PriceType>02</PriceType>
           <PriceAmount>4.99</PriceAmount>
           <CurrencyCode>USD</CurrencyCode>
-          <Territory>WORLD</Territory>
+          <Territory>
+            <RegionsIncluded>WORLD</RegionsIncluded>
+          </Territory>
         </Price>
       </SupplyDetail>
     </ProductSupply>
@@ -500,8 +530,9 @@
         <LanguageRole>01</LanguageRole>
         <LanguageCode>eng</LanguageCode>
       </Language>
-      <!-- Subject heading text only: BISAC/thema codes to be confirmed before production -->
+      <!-- Free-text keywords (scheme 20); BISAC (10) / Thema (93) codes before production feeds -->
       <Subject>
+        <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
         <SubjectHeadingText>Science / Astronomy / Educational</SubjectHeadingText>
       </Subject>
     </DescriptiveDetail>
@@ -520,16 +551,18 @@
         <PublishingRole>01</PublishingRole>
         <PublisherName>Aira Astralis</PublisherName>
       </Publisher>
+      <PublishingStatus>04</PublishingStatus>
       <PublishingDate>
         <PublishingDateRole>01</PublishingDateRole>
-        <Date>20260916</Date>
+        <Date dateformat="00">20260919</Date>
       </PublishingDate>
-      <PublishingStatus>04</PublishingStatus>
+      <SalesRights>
+        <SalesRightsType>02</SalesRightsType>
+        <Territory>
+          <RegionsIncluded>WORLD</RegionsIncluded>
+        </Territory>
+      </SalesRights>
     </PublishingDetail>
-    <SalesRights>
-      <SalesRightsType>02</SalesRightsType>
-      <Territory>WORLD</Territory>
-    </SalesRights>
     <ProductSupply>
       <SupplyDetail>
         <Supplier>
@@ -541,7 +574,9 @@
           <PriceType>02</PriceType>
           <PriceAmount>4.99</PriceAmount>
           <CurrencyCode>USD</CurrencyCode>
-          <Territory>WORLD</Territory>
+          <Territory>
+            <RegionsIncluded>WORLD</RegionsIncluded>
+          </Territory>
         </Price>
       </SupplyDetail>
     </ProductSupply>
@@ -575,8 +610,9 @@
         <LanguageRole>01</LanguageRole>
         <LanguageCode>eng</LanguageCode>
       </Language>
-      <!-- Subject heading text only: BISAC/thema codes to be confirmed before production -->
+      <!-- Free-text keywords (scheme 20); BISAC (10) / Thema (93) codes before production feeds -->
       <Subject>
+        <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
         <SubjectHeadingText>Science / Astronomy / Educational</SubjectHeadingText>
       </Subject>
     </DescriptiveDetail>
@@ -595,16 +631,18 @@
         <PublishingRole>01</PublishingRole>
         <PublisherName>Aira Astralis</PublisherName>
       </Publisher>
+      <PublishingStatus>04</PublishingStatus>
       <PublishingDate>
         <PublishingDateRole>01</PublishingDateRole>
-        <Date>20260916</Date>
+        <Date dateformat="00">20260919</Date>
       </PublishingDate>
-      <PublishingStatus>04</PublishingStatus>
+      <SalesRights>
+        <SalesRightsType>02</SalesRightsType>
+        <Territory>
+          <RegionsIncluded>WORLD</RegionsIncluded>
+        </Territory>
+      </SalesRights>
     </PublishingDetail>
-    <SalesRights>
-      <SalesRightsType>02</SalesRightsType>
-      <Territory>WORLD</Territory>
-    </SalesRights>
     <ProductSupply>
       <SupplyDetail>
         <Supplier>
@@ -616,7 +654,9 @@
           <PriceType>02</PriceType>
           <PriceAmount>4.99</PriceAmount>
           <CurrencyCode>USD</CurrencyCode>
-          <Territory>WORLD</Territory>
+          <Territory>
+            <RegionsIncluded>WORLD</RegionsIncluded>
+          </Territory>
         </Price>
       </SupplyDetail>
     </ProductSupply>
@@ -650,8 +690,9 @@
         <LanguageRole>01</LanguageRole>
         <LanguageCode>eng</LanguageCode>
       </Language>
-      <!-- Subject heading text only: BISAC/thema codes to be confirmed before production -->
+      <!-- Free-text keywords (scheme 20); BISAC (10) / Thema (93) codes before production feeds -->
       <Subject>
+        <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
         <SubjectHeadingText>Science / Astronomy / Educational</SubjectHeadingText>
       </Subject>
     </DescriptiveDetail>
@@ -670,16 +711,18 @@
         <PublishingRole>01</PublishingRole>
         <PublisherName>Aira Astralis</PublisherName>
       </Publisher>
+      <PublishingStatus>04</PublishingStatus>
       <PublishingDate>
         <PublishingDateRole>01</PublishingDateRole>
-        <Date>20260916</Date>
+        <Date dateformat="00">20260919</Date>
       </PublishingDate>
-      <PublishingStatus>04</PublishingStatus>
+      <SalesRights>
+        <SalesRightsType>02</SalesRightsType>
+        <Territory>
+          <RegionsIncluded>WORLD</RegionsIncluded>
+        </Territory>
+      </SalesRights>
     </PublishingDetail>
-    <SalesRights>
-      <SalesRightsType>02</SalesRightsType>
-      <Territory>WORLD</Territory>
-    </SalesRights>
     <ProductSupply>
       <SupplyDetail>
         <Supplier>
@@ -691,7 +734,9 @@
           <PriceType>02</PriceType>
           <PriceAmount>4.99</PriceAmount>
           <CurrencyCode>USD</CurrencyCode>
-          <Territory>WORLD</Territory>
+          <Territory>
+            <RegionsIncluded>WORLD</RegionsIncluded>
+          </Territory>
         </Price>
       </SupplyDetail>
     </ProductSupply>
@@ -725,8 +770,9 @@
         <LanguageRole>01</LanguageRole>
         <LanguageCode>eng</LanguageCode>
       </Language>
-      <!-- Subject heading text only: BISAC/thema codes to be confirmed before production -->
+      <!-- Free-text keywords (scheme 20); BISAC (10) / Thema (93) codes before production feeds -->
       <Subject>
+        <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
         <SubjectHeadingText>Science / Astronomy / Educational</SubjectHeadingText>
       </Subject>
     </DescriptiveDetail>
@@ -745,16 +791,18 @@
         <PublishingRole>01</PublishingRole>
         <PublisherName>Aira Astralis</PublisherName>
       </Publisher>
+      <PublishingStatus>04</PublishingStatus>
       <PublishingDate>
         <PublishingDateRole>01</PublishingDateRole>
-        <Date>20260916</Date>
+        <Date dateformat="00">20260919</Date>
       </PublishingDate>
-      <PublishingStatus>04</PublishingStatus>
+      <SalesRights>
+        <SalesRightsType>02</SalesRightsType>
+        <Territory>
+          <RegionsIncluded>WORLD</RegionsIncluded>
+        </Territory>
+      </SalesRights>
     </PublishingDetail>
-    <SalesRights>
-      <SalesRightsType>02</SalesRightsType>
-      <Territory>WORLD</Territory>
-    </SalesRights>
     <ProductSupply>
       <SupplyDetail>
         <Supplier>
@@ -766,7 +814,9 @@
           <PriceType>02</PriceType>
           <PriceAmount>4.99</PriceAmount>
           <CurrencyCode>USD</CurrencyCode>
-          <Territory>WORLD</Territory>
+          <Territory>
+            <RegionsIncluded>WORLD</RegionsIncluded>
+          </Territory>
         </Price>
       </SupplyDetail>
     </ProductSupply>
